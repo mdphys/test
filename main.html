@@ -20,7 +20,7 @@
 <div class='date'><span class='cmr-12'>January 2020, updated June 2021</span></div>
    </div>
    <h3 class='sectionHead' id='introduction'><span class='titlemark'>1   </span> <a id='x1-10001'></a>Introduction</h3>
-<!-- l. 20 --><p class='noindent'>cc Overleaf<span class='footnote-mark'><a href='main2.html#fn1x0'><sup class='textsuperscript'>1</sup></a></span><a id='x1-1001f1'></a> 
+<!-- l. 21 --><p class='noindent'>Overleaf<span class='footnote-mark'><a href='main2.html#fn1x0'><sup class='textsuperscript'>1</sup></a></span><a id='x1-1001f1'></a> 
 is popular online LaTeX editor. It can generate PDF files without need to install a
 local TeX distribution. Unfortunatelly, it doesn’t support conversion to HTML out
 of the box. To get the HTML version of the document, we must use some
@@ -28,12 +28,12 @@ tricks.
 </p><!-- l. 27 --><p class='indent'>   There are many tools that support the conversion from LaTeX to
 HTML, each of them use a different approach. I am a developer of
 TeX4ht<span class='footnote-mark'><a href='main3.html#fn2x0'><sup class='textsuperscript'>2</sup></a></span><a id='x1-1002f2'></a> ,
-so I will present solution that uses this tool. c TeX4ht uses TeX for the actual
-conversion. It loads special configuration files for internal LaTeX code or for
-the used packages. These configuration files patch commands with special
-instructions that insert HTML (or other supported formats). Because it uses TeX
-for the actual conversion, it supports custom commands. It also supports
-font changing commands, so it doesn’t need custom configurations in many
+so I will present solution that uses this tool.
+</p><!-- l. 32 --><p class='indent'>   TeX4ht uses TeX for the actual conversion. It loads special configuration files for
+internal LaTeX code or for the used packages. These configuration files patch
+commands with special instructions that insert HTML (or other supported formats).
+Because it uses TeX for the actual conversion, it supports custom commands. It also
+supports font changing commands, so it doesn’t need custom configurations in many
 cases.
 </p><!-- l. 39 --><p class='indent'>   The first method that use TeX4ht for the conversion was
 presented by LianTze Lim. It uses a custom build file for
